@@ -1,0 +1,65 @@
+body
+{
+    background-image: url('../Img/painting-3135875_1920.jpg');
+    background-size: cover;
+    background-attachment:scroll; 
+    margin:0;
+}
+
+h1
+{
+    color: black;
+    font-size: 30px;
+}
+h2{
+    color: black;
+    font-size: 30px;
+}
+p
+{
+    font-size: 14px;
+    color: black;
+}
+.nav
+{
+    padding: 0;
+    list-style: none;
+    list-style-type:none;
+}
+.nav li{
+    display: inline;
+}
+.wrapper
+{
+    padding: 3px;
+    border-bottom: 5px groove black;
+    margin: 20px auto;
+    background-color:white;
+    width:70%;
+    height:auto;
+}
+.wrapper a
+{
+    text-decoration:none;
+}
+.wrapper a:hover 
+{
+    color: lightblue;
+}
+.wrapper a:active
+{
+    color: hotpink;
+}
+
+ul
+{
+    margin: 0px;
+    padding: opx;
+    list-style: none;
+}
+ul li{
+    float:left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+}
